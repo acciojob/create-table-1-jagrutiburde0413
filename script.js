@@ -12,9 +12,9 @@ function insert_Row() {
   newRow.appendChild(newCell1);
   newRow.appendChild(newCell2);
   
-  // Get reference to the table
+  // Get reference to the table body
   var table = document.getElementById('sampleTable');
-  
-  // Insert new row at the top
+ 
+  // Append new row to the table body
   table.insertRow(0).appendChild(newRow);
 }
